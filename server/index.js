@@ -10,8 +10,8 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "http://localhost:3000",
-      "https://full-stack-hostinger-client.onrender.com/",
-      "https://full-stack-hostinger-client-try.onrender.com/",
+      "https://full-stack-hostinger-client.onrender.com",
+      "https://full-stack-hostinger-client-try.onrender.com",
       // TODO : add production url
     ],
     credentials: true,
