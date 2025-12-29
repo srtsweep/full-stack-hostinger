@@ -5,7 +5,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    fetch("https://full-stack-hostinger-server.onrender.com")
+    fetch("https://full-stack-hostinger-server.onrender.com/api/message")
       .then((res) => res.json())
       .then((data) => setMessage(data.message));
     // .error((err) => {
